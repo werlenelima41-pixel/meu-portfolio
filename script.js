@@ -2,12 +2,12 @@ const projetos = [
     {
         nome: "Projeto 1",
         descricao: "Meu primeiro projeto",
-        link: "https://github.com/werlenelima41-pixel/meu-portfolio"
+        link: "https://werlenelima41-pixel.github.io/meu-portfolio/"
     },
     {
         nome: "Projeto 2",
         descricao: "Outro projeto legal",
-        link: "https://github.com/werlenelima41-pixel/meu-portfolio"
+        link: "https://werlenelima41-pixel.github.io/meu-portfolio/"
     }
 ];
 
