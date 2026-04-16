@@ -1,28 +1,12 @@
 const projetos = [
     {
-        nome: "Portfólio Web",
-        descricao: "Desenvolvimento de um portfólio utilizando HTML, CSS e JavaScript com renderização dinâmica de projetos.",
+        nome: "Projeto de Portfólio",
+        descricao: "Desenvolvimento de um portfólio utilizando HTML, CSS e JavaScript com renderização dinâmica.",
         link: "https://github.com/werlenelima41-pixel/meu-portfolio"
     },
     {
-        nome: "Lista de Projetos Dinâmica",
-        descricao: "Implementação de array de objetos em JavaScript para exibição dinâmica de projetos na página.",
+        nome: "Demonstração de Renderização com JavaScript",
+        descricao: "Exemplo de uso de array de objetos em JavaScript para exibir conteúdos dinamicamente na página.",
         link: "https://github.com/"
     }
 ];
-
-const lista = document.getElementById("lista-projetos");
-
-lista.innerHTML = "";
-
-projetos.forEach(p => {
-    const div = document.createElement("div");
-    div.classList.add("projeto");
-
-    div.innerHTML = `
-        <h3><a href="${p.link}" target="_blank">${p.nome}</a></h3>
-        <p>${p.descricao}</p>
-    `;
-
-    lista.appendChild(div);
-});
