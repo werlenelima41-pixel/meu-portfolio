@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f2f4f8;
+}
+
+header {
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+#lista-projetos {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.projeto {
+  background: white;
+  border: none;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+@media (max-width: 600px) {
+  #lista-projetos {
+    flex-direction: column;
+  }
+
+  .projeto {
+    width: 100%;
+  }
+}
